@@ -1,0 +1,46 @@
+    .caption{font-size: 10px;}
+    .mySlides {display:none}
+    .demo {cursor:pointer}
+		/* Style the buttons that are used to open and close the accordion panel */
+		.accordion {
+		    background-color: #801f1c;
+		    font-size: 20px;
+            font: garamond;
+            color: #fff;
+		    cursor: pointer;
+		    padding: 10px;
+		    width: 100%;
+		    text-align: left;
+		    border: dash;
+		    border-color: #fff;
+		    outline: none;
+		    transition: 0.4s;
+		}
+
+		/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+		.active, .accordion:hover {
+		    background-color: #b51706;
+		}
+		.image: hover{
+			-webkit-transform: scale(2,2);
+		}
+
+		/* Style the accordion panel. Note: hidden by default */
+		.panel {
+		    padding: 0 18px;
+		    background-color: none;
+		    display: none;
+		    overflow: hidden;
+		}
+.mySlides1{
+    position: relative;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: white;
+}
+.mySlides2{
+    position: relative;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: white;
+}

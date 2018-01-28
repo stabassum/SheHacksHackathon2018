@@ -1,0 +1,182 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" style="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+    <title>Home</title>
+  </head>
+
+   <body>
+
+  <nav class="navbar  bg-dark justify-content-end" >
+   <img src="img/logo.png">
+    <ul class="nav nav-pills ">
+       
+      <li class="nav-item">
+        <a class="nav-link" href="index.html" style="color: white">About</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="pages/askLearn.html" style="color: white">Ask/Learn</a>
+      </li>
+      
+      
+      <li class="nav-item">
+        <a class="nav-link" href="pages/resources.html" style="color: white">Resources</a>
+      </li>
+      
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="color: white">Services</a>
+        <div class="dropdown-menu">
+          
+          <!-- Free initial consultation -->
+          <a class="dropdown-item" href="pages/talkSpace.html">Talk Space</a>
+          
+          <a class="dropdown-item" href="https://groups.google.com/forum/#!forum/look-listen-learn">Discussion Board</a>
+          
+        </div>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="pages/statistics.html" style="color: white">Statistics</a>
+      </li>
+    
+      
+    </ul>
+    </nav>
+
+      <br> 
+       <p style="text-align: center"><em>Please note this page will not appear in your search history</em></p>   
+        
+        <div style="text-align: center" id="picHelp">
+        
+        <img src="img/helpMe.jpg" alt="helpMe">
+       </div>
+        
+       <section style="text-align: center">
+       
+        <p style="font-size: 25px">Life is hard. <br> So we're here to help. </p>
+       
+       <p>           
+           <em><b>look-listen-learn</b></em>'s goal is to help anyone in need of support. <br>Our services range from <b>free</b> online therapy to food banks to shelters and community meetings. <br> We believe that no none deserves to feel alone, so we've partnered with the best organizers from all over the nation. <br> We hope to give  these communities a simple way to locate resources and learn about the biggest <br> issues today to improve their current condition.
+       
+       </p>
+       
+        </section>
+           
+         <br>
+          
+             <div class="wrapper">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc1b3aCYsrWIlHMxDbPQpNe_OrvQRu7wkK4K430OBdHpOH_ew/viewform" class="btn btn-primary" role="button" style="text-align: center">I Want Help</a>
+                 
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScDKOa5y2DjrfNkesHFVEt40D_4WN_0sRxmJWsaeI8zN-pPXQ/viewform" class="btn btn-primary" role="button" style="text-align: center">I Want to Help</a>
+
+    
+         
+          
+<br><br>
+
+       <h1>Disclaimer/Explanation for the Quizzes</h1>
+       
+       <p>Our goal here at ‘look listen learn’ has always been to make the     world a better and safer place for all. <br>
+        We’re coders, but we were also kids once and we wanted to be superheroes. Look listen learn allows us to fulfil that dream <br> by providing our users with access to financial and material resources <br> we hope to make their lives just a little easier.</p>
+       <br>
+       
+       <p>But we can’t do that alone. We need constant support from both our donors and our users. <br> While donors make it possible to fulfil the financial aspect of our goal we rely on users <br> to constantly stay active and provide us with data so we can improve ourselves. </p>
+       
+       <br>
+       <p>The bellow two quizzes are designed for our to audiences and help us accumulate statistics <br> on a need know basis as to support various organizations. They are completely anonymous and cannot be traced back to the taker. <br> The data itself will only ever be used by ‘look listen learn’ or one of our affiliated partners.</p>
+       <br>
+       
+       <p>The quiz labelled ‘I would like help’ is designated for anyone who has ever felt alone <br>and would like to share the emotional hardships and challenges they have faced.</p>
+       <br>
+       
+       <p>The quiz labelled ‘I want to help’ is designated for anyone who would like to submit their own personal responses <br> to various scenarios, questions and statements about a variety of mental health issues and situations.</p>
+       <br>
+       <p>Just like this page no trace of these surveys will appear in your search history. <br> The quizzes are purely for research purposes and in no way will reflect judgment on the taker. </p>
+       <br>
+       
+      <!-- 
+        <a href="https://www.paypal.com/us/webapps/mpp/donations" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">Donate</a>
+      -->
+      <h3 style="color: yellow">Support Us Here</h3>
+      <div id="paypal-button"></div>
+
+  <script>
+    paypal.Button.render({
+      env: 'production', // Or 'sandbox',
+
+      commit: true, // Show a 'Pay Now' button
+
+      style: {
+        color: 'gold',
+        size: 'small'
+      },
+
+      payment: function(data, actions) {
+        /* 
+         * Set up the payment here 
+         */
+      },
+
+      onAuthorize: function(data, actions) {
+        /* 
+         * Execute the payment here 
+         */
+      },
+
+      onCancel: function(data, actions) {
+        /* 
+         * Buyer cancelled the payment 
+         */
+      },
+
+      onError: function(err) {
+        /* 
+         * An error occurred during the transaction 
+         */
+      }
+    }, '#paypal-button');
+  </script>
+      
+      
+       </div>
+    <br>
+
+   <!-- ABOUT -->
+   <br>
+   <div style="text-content: center">
+
+       <br>
+       
+
+   </div>
+  <div>
+     
+       <h1>CONTACT US</h1>
+        <p style="text-align: center">looklistenlearn18@gmail.com</p>
+       <br>
+
+      <div id="socialMedia">
+          <a href="#"><img class="socialMediaImages" src="img/facebook.png" alt=""></a>
+          <a href="#"><img class="socialMediaImages" src="img/instagram.png" alt=""></a>
+          <a href="#"><img class="socialMediaImages" src="img/twitter.png" alt=""></a>
+      </div>
+    </div>
+ 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+
+</html>

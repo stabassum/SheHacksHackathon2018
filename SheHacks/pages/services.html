@@ -1,0 +1,117 @@
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" style="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+    <title>Services</title>
+  </head>
+
+   <body>
+
+  <nav class="navbar  bg-dark justify-content-end" >
+  <img src="../img/logo.png">
+    <ul class="nav nav-pills ">
+      
+      
+      
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html" style="color: white">About</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="askLearn.html" style="color: white">Ask/Learn</a>
+      </li>
+      
+      
+      <li class="nav-item">
+        <a class="nav-link" href="resources.html" style="color: white">Resources</a>
+      </li>
+      
+       
+        <li class="nav-item">
+        <a class="nav-link" href="resources.html" style="color: white">Services</a>
+       
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="statistics.html" style="color: white">Statistics</a>
+      </li>
+    
+      
+    </ul>
+    </nav>
+      
+     <br>
+          
+            
+            
+            <div class="wrapper">
+            <a href="talkSpace.html" class="btn btn-primary" role="button" style="text-align: center">Talk Space</a>
+                 
+            <a href="https://groups.google.com/forum/#!forum/look-listen-learn" class="btn btn-primary" role="button" style="text-align: center">Discussion Board</a>
+    
+         
+          
+<br><br>
+      
+      
+
+      <br> 
+
+  
+   <h3 style="color: yellow">Support Us Here</h3>
+      <div id="paypal-button"></div>
+
+  <script style="text-align: center">
+    paypal.Button.render({
+      env: 'production', // Or 'sandbox',
+
+      commit: true, // Show a 'Pay Now' button
+
+      style: {
+        color: 'gold',
+        size: 'small'
+      },
+
+      payment: function(data, actions) {
+        /* 
+         * Set up the payment here 
+         */
+      },
+
+      onAuthorize: function(data, actions) {
+        /* 
+         * Execute the payment here 
+         */
+      },
+
+      onCancel: function(data, actions) {
+        /* 
+         * Buyer cancelled the payment 
+         */
+      },
+
+      onError: function(err) {
+        /* 
+         * An error occurred during the transaction 
+         */
+      }
+    }, '#paypal-button');
+  </script>
+         
+  
+    </body>
+    
+</html>
+
+   
